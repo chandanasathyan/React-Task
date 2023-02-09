@@ -1,0 +1,145 @@
+
+.form-grid{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.heading{
+    margin-top: 70px;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-top: 50px;  
+}
+
+.input-name{
+    width: 600px;
+    height: 40px;
+    border: 1px solid #2551BB;
+    border-radius: 10px;
+}
+.input-name::placeholder{
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.input-email{
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #2551BB;
+    border-radius: 10px;
+}
+.input-email::placeholder{
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.input-mobile{
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #2551BB;
+    border-radius: 10px;
+}
+.input-mobile::placeholder{
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.save-btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: #2551BB;;
+}
+
+
+/* ---------RESPONSIVE---------- */
+
+.form-grid-mob{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.heading-mob{
+    margin-top: 50px;
+}
+
+.input-div-mob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-top: 50px;  
+}
+
+.input-name-mob{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #2551BB;
+    border-radius: 10px;
+}
+.input-name-mob::placeholder{
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.input-email-mob{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #2551BB;
+    border-radius: 10px;
+}
+.input-email-mob::placeholder{
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.input-mobile-mob{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #2551BB;
+    border-radius: 10px;
+}
+.input-mobile-mob::placeholder{
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.save-btn-mob{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: #2551BB;;
+}
